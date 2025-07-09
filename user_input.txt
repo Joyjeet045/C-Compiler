@@ -1,0 +1,6 @@
+program
+start
+  var num
+  read num ,
+  print num ,
+end

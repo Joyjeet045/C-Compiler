@@ -1,0 +1,7 @@
+! myprogram.txt !
+program
+var num
+start
+  let num = 42 ,
+  print num ,
+end

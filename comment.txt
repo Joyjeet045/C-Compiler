@@ -1,0 +1,5 @@
+program
+start
+  ! This is a comment !
+  print 1 ,
+end

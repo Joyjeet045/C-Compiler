@@ -1,0 +1,11 @@
+program
+var i
+start
+  let i = 0 ,
+  iter (i < 3)
+    start
+      print i ,
+      let i = (i + 1) ,
+    end ,
+  ,
+end

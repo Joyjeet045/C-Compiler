@@ -1,0 +1,6 @@
+program
+start
+if (10 > 5)
+  print 1 ,
+,
+end
