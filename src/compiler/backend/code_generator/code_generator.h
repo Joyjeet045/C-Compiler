@@ -22,7 +22,7 @@ class CodeGenerator
         void close_target();
 
     private:
-        int temp_var_count;  // Keep track of the number of temporary variables
+        int temp_var_count;
         int label_count;
         std::ofstream target;
 };

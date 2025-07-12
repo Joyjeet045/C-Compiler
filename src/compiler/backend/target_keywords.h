@@ -26,5 +26,4 @@ const std::string BREAK_NEGATIVE = "BRNEG";
 const std::string TEMP_VAR_PREFIX = "T";
 const std::string LABEL_PREFIX = "L";
 
-
 #endif

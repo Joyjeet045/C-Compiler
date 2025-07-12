@@ -2,6 +2,7 @@ program
 var i
 start
   let i = 0 ,
+  let i = 1 ,
   iter (i < 3)
     start
       print i ,

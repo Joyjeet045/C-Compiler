@@ -17,6 +17,7 @@ class VarStack
         void erase(Token var);
         int find(Token var);
         int num_vars_in_current_scope();
+        bool contains_in_current_scope(const Token& token) const;
 
     private:
         std::deque<std::set<Token>> var_stack;

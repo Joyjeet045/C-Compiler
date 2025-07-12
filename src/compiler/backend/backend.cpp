@@ -66,8 +66,7 @@ void Backend::check_for_variables(Node* node)
 
     for (auto id_token : id_tokens) {
         if (contains_variable_declarations(node)) {
-            int location = var_stack.find(id_token);
-            if (location == 0) {
+            if (var_stack.contains_in_current_scope(id_token)) { 
                 std::string msg = "Duplicate variable declaration";
                 print_error_and_exit(msg, id_token);
             }

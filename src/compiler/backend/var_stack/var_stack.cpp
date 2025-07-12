@@ -52,3 +52,7 @@ int VarStack::num_vars_in_current_scope()
     std::set<Token> current_scope = var_stack[var_stack.size() - 1];
     return current_scope.size();
 }
+bool VarStack::contains_in_current_scope(const Token& token) const {
+    if (var_stack.empty()) return false;
+    return var_stack.back().count(token) > 0;
+}
